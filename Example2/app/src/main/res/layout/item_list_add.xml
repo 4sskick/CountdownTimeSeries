@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="8dp"
+              android:paddingEnd="0dp"
+              android:paddingLeft="32dp"
+              android:paddingRight="0dp"
+              android:paddingStart="32dp"
+              android:paddingTop="8dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/layoutAddData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgAddData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="Tambah Data"
+            android:src="@android:drawable/ic_menu_add"
+            android:tag="0"/>
+
+        <TextView
+            android:id="@+id/txtAddData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:text="Tambah Data"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
