@@ -229,8 +229,8 @@ public class CountdownAdapter extends RecyclerView.Adapter<CountdownAdapter.View
             Runnable runnable = new Runnable() {
                 @Override
                 public void run() {
-                    notifyItemInserted(listProducts.size() - 1);
-                    /*notifyItemRangeChanged(0, listProducts.size());*/
+                    /*notifyItemInserted(listProducts.size() - 1);*/
+                    notifyItemRangeChanged(0, listProducts.size());
                 }
             };
             handler.post(runnable);
